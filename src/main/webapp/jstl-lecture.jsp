@@ -10,15 +10,15 @@
 <%
     // this code will normally be written in a servlet or called within a servlet instead of in a JSP
 
-//    List<Product> products = new ArrayList<>(Arrays.asList(
-//            new Product(1, "Hammer", "A great tool", 3000),
-//            new Product(2, "Rake", "A useful tool", 2300),
-//            new Product(3, "Screwdriver", "Another useful tool", 1000),
-//            new Product(4, "Drill", "A power tool", 9500)
-//    ));
+    List<Product> products = new ArrayList<>(Arrays.asList(
+            new Product(1, "Hammer", "A great tool", 3000),
+            new Product(2, "Rake", "A useful tool", 2300),
+            new Product(3, "Screwdriver", "Another useful tool", 1000),
+            new Product(4, "Drill", "A power tool", 9500)
+    ));
 
-//    request.setAttribute("products", products);
-//    request.setAttribute("myName", "Javier");
+    request.setAttribute("products", products);
+    request.setAttribute("myName", "Javier");
 
 
 %>
